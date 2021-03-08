@@ -8,7 +8,7 @@ def find_greatest_number(incoming_list):
     """
     greatest_value = max(incoming_list)
 
-    print(greatest_value)
+    return greatest_value
 
 
 def find_least_number(incoming_list):
@@ -18,7 +18,7 @@ def find_least_number(incoming_list):
     """
     least_value = min(incoming_list)
 
-    print(least_value)
+    return least_value
 
 
 def add_list_numbers(incoming_list):
